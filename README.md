@@ -1,8 +1,19 @@
-# Autonomous Geospatial AI — Supervisor & Sub-agents (interactive walkthrough)
+# Autonomous Geospatial AI — Supervisor & Sub-agents 🛰️🤖
 
-A self-contained, bilingual (EN / EL) interactive walkthrough of a proposed **autonomous geospatial AI** architecture (planner / sub-agents, GeoRAG, independent guardrail). It accompanies **Chapter 8 — Future Work** of an MSc thesis in Geography & Geoinformatics on semantic segmentation of multispectral/thermal UAV imagery (MicaSense Altum-PT sensor; study area: Pamfila, Lesvos).
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2E8B52?logo=github&logoColor=white)](https://nickkoro21.github.io/geospatial-ai-pipeline-walkthrough/)
+[![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](#license)
+[![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey.svg)](#license)
+[![HTML5](https://img.shields.io/badge/HTML5-no%20dependencies-E34F26?logo=html5&logoColor=white)](#tech)
+[![SVG](https://img.shields.io/badge/SVG-vector-FFB13B?logo=svg&logoColor=white)](#tech)
+[![Languages](https://img.shields.io/badge/i18n-EN%20%2F%20EL-5C6699)](#features)
+[![Built with Claude](https://img.shields.io/badge/Built%20with-Claude%20(Anthropic)-D4A27F)](#credits)
+[![Made with coffee](https://img.shields.io/badge/Made%20with-%E2%98%95%20coffee-6F4E37)](#made-with)
 
-**Live demo (GitHub Pages):** https://nickkoro21.github.io/geospatial-ai-pipeline-walkthrough/
+A self-contained, **bilingual (EN / EL) interactive walkthrough** of a proposed **autonomous geospatial AI** architecture — a planner that delegates to specialist sub-agents (GeoRAG), with an independent guardrail before any answer is returned. It accompanies **Chapter 8 — Future Work** of an MSc thesis in Geography & Geoinformatics on semantic segmentation of multispectral/thermal UAV imagery (MicaSense Altum-PT sensor; study area: Pamfila, Lesvos).
+
+> **▶ Live demo:** https://nickkoro21.github.io/geospatial-ai-pipeline-walkthrough/
+
+---
 
 ## What it shows
 
@@ -27,6 +38,15 @@ Each step includes a small example pane (papers, ESRI `.emd` metadata, sample ge
 - Language toggle with flags (default: English; Greek available).
 - Dynamic full-screen layout, mobile-friendly, Play / Next / Prev / Restart.
 
+## Run locally
+
+Just open `index.html` in any modern browser — no build step, no server required.
+
+<a id="tech"></a>
+## Tech
+
+Plain HTML5, hand-written inline SVG (icons, nodes, flags), vanilla JavaScript for the step state machine. No frameworks, no external requests.
+
 ## Sources (open access / Elsevier)
 
 - Perez, E., et al. (2018). FiLM: Visual Reasoning with a General Conditioning Layer. arXiv:1709.07871
@@ -39,12 +59,32 @@ Each step includes a small example pane (papers, ESRI `.emd` metadata, sample ge
 - Lundberg, S. M., & Lee, S.-I. (2017). SHAP. arXiv:1705.07874
 - Anthropic (2024). Model Context Protocol (MCP).
 
-Infrastructure/tools: PostGIS, pgvector, Arize Phoenix.
+Infrastructure/tools referenced: PostGIS, pgvector, Arize Phoenix.
+
+## Author
+
+**Nikolaos Koroniadis** — MSc in Geography & Geoinformatics · GitHub [@Nickkoro21](https://github.com/Nickkoro21)
+T-6 Texan II instructor pilot; interests in data science, GIS, deep learning, cartography, and human-factors accident analysis.
+
+<a id="credits"></a>
+## Credits & acknowledgements
+
+- **Concept, direction & domain expertise:** Nikolaos Koroniadis
+- **Design & implementation assistance:** Claude (Anthropic) — diagram, iconography, bilingual UI, and this walkthrough were co-developed with Claude.
+- Thanks to the open-access research community whose work is referenced above.
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=Nickkoro21/geospatial-ai-pipeline-walkthrough)](https://github.com/Nickkoro21/geospatial-ai-pipeline-walkthrough/graphs/contributors)
 
 ## License
 
-Code: MIT. Content/figures: CC BY 4.0. © Nikolaos Koroniadis.
+- **Code:** MIT
+- **Content & figures:** CC BY 4.0
 
+© 2026 Nikolaos Koroniadis.
+
+<a id="made-with"></a>
 ---
 
-*Created as companion educational/presentation material for Chapter 8 of the thesis.*
+<p align="center"><em>Made with ☕ coffee and ❤️ in Kalamata, Greece.</em></p>
