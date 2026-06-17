@@ -47,17 +47,18 @@ Just open `index.html` in any modern browser — no build step, no server requir
 
 Plain HTML5, hand-written inline SVG (icons, nodes, flags), vanilla JavaScript for the step state machine. No frameworks, no external requests.
 
-## Sources (open access / Elsevier)
+## Sources (open access)
 
-- Perez, E., et al. (2018). FiLM: Visual Reasoning with a General Conditioning Layer. arXiv:1709.07871
-- Gu, A., & Dao, T. (2023). Mamba: Linear-Time Sequence Modeling with Selective State Spaces. arXiv:2312.00752
-- Li, F., et al. (2025). LMVMamba. Remote Sensing, 17(19), 3367. https://doi.org/10.3390/rs17193367
-- Cao, Y., et al. (2025). Vision Mamba RS segmentation. Remote Sensing, 17(8), 1390
-- Shi, Y., et al. (2025). AuxDet. arXiv:2505.15184
-- Wang, J., et al. (2025). GeoRAG. arXiv:2504.01458
-- Liang, J., et al. (2025). GeoGraphRAG. Int. J. Applied Earth Observation and Geoinformation, 142, 104712 (Elsevier)
-- Lundberg, S. M., & Lee, S.-I. (2017). SHAP. arXiv:1705.07874
-- Anthropic (2024). Model Context Protocol (MCP).
+All links verified (June 2026).
+
+- Perez, E., et al. (2018). [FiLM: Visual Reasoning with a General Conditioning Layer](https://arxiv.org/abs/1709.07871). AAAI / arXiv:1709.07871
+- Gu, A., & Dao, T. (2023). [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752). arXiv:2312.00752
+- Li, F., et al. (2025). [LMVMamba: A Hybrid U-Shape Mamba for Remote Sensing Segmentation](https://doi.org/10.3390/rs17193367). Remote Sensing, 17(19), 3367
+- Cao, Y., et al. (2025). [Remote Sensing Image Segmentation Using Vision Mamba](https://www.mdpi.com/2072-4292/17/8/1390). Remote Sensing, 17(8), 1390
+- Shi, Y., et al. (2025). [AuxDet: Auxiliary Metadata Matters for Omni-Domain Infrared Small Target Detection](https://arxiv.org/abs/2505.15184). arXiv:2505.15184
+- Wang, J., et al. (2025). [GeoRAG: A Question-Answering Approach from a Geographical Perspective](https://arxiv.org/abs/2504.01458). arXiv:2504.01458
+- Lundberg, S. M., & Lee, S.-I. (2017). [A Unified Approach to Interpreting Model Predictions (SHAP)](https://arxiv.org/abs/1705.07874). NeurIPS / arXiv:1705.07874
+- Anthropic (2024). [Introducing the Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-protocol).
 
 Infrastructure/tools referenced: PostGIS, pgvector, Arize Phoenix.
 
