@@ -2,7 +2,7 @@
 
 A self-contained, bilingual (EN / EL) interactive walkthrough of a proposed **autonomous geospatial AI** architecture (planner / sub-agents, GeoRAG, independent guardrail). It accompanies **Chapter 8 — Future Work** of an MSc thesis in Geography & Geoinformatics on semantic segmentation of multispectral/thermal UAV imagery (MicaSense Altum-PT sensor; study area: Pamfila, Lesvos).
 
-**Live demo (GitHub Pages):** _https://<USERNAME>.github.io/geospatial-ai-pipeline-walkthrough/_ (filled in after Pages is enabled)
+**Live demo (GitHub Pages):** https://nickkoro21.github.io/geospatial-ai-pipeline-walkthrough/
 
 ## What it shows
 
